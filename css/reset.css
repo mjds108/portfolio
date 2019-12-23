@@ -1,0 +1,12 @@
+@charset "utf-8";
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Allura', cursive; */
+}
+.clearfix::after{display:block;content:"";clear: both;}
+ul,ol,li{list-style:none;}
+a{color:black;text-decoration:none;}
